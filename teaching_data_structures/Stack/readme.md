@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Stack:
 We made a stack called [MyStack< T >](https://github.com/Daniel-WORK-GH/teaching_data_structures/blob/master/teaching_data_structures/Stack/MyStack.cs). 
 
@@ -24,6 +23,3 @@ We made a stack called [MyStack< T >](https://github.com/Daniel-WORK-GH/teaching
 
 - [void SwapLast2](https://github.com/Daniel-WORK-GH/teaching_data_structures/blob/a7f4c9c6eef2c27b7a61a05b8faaf4cdacf092fc/teaching_data_structures/Stack/MyStack.cs#L51) -
   will swap the last 2 elements in the stack.
-=======
-# hello
->>>>>>> a7f4c9c6eef2c27b7a61a05b8faaf4cdacf092fc
