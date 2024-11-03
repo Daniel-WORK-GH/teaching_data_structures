@@ -13,4 +13,4 @@ There are a number of ways:
 
 2. Go to a folder you want to copy the project to, then:
    - Open CMD console.
-   - run "git clone https://github.com/Daniel-WORK-GH/teaching_data_structures/tree/master"
+   - run "git clone https://github.com/Daniel-WORK-GH/teaching_data_structures"
