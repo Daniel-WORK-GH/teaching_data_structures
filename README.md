@@ -3,6 +3,7 @@
 ### What we programmed : 
 - [Linked lists](https://github.com/Daniel-WORK-GH/teaching_data_structures/tree/master/teaching_data_structures/LinkedList)
 - [Stack](https://github.com/Daniel-WORK-GH/teaching_data_structures/tree/master/teaching_data_structures/Stack)
+- [Queue](https://github.com/Daniel-WORK-GH/teaching_data_structures/tree/master/teaching_data_structures/Queue)
 
 ### How to open the project on my pc?
 There are a number of ways:
