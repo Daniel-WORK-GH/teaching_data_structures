@@ -1,5 +1,5 @@
 ## Stack:
-We made a stack called [MyStack< T >](https://github.com/Daniel-WORK-GH/teaching_data_structures/blob/master/teaching_data_structures/Stack/MyStack.cs). 
+We made a stack called [MyStack< T >](https://github.com/Daniel-WORK-GH/teaching_data_structures/blob/master/teaching_data_structures/Stack/MyStack.cs), and a stack called [StackList< T >](https://github.com/Daniel-WORK-GH/teaching_data_structures/blob/master/teaching_data_structures/Stack/StackList.cs)
 
 
 #### Stack Using Array: 
