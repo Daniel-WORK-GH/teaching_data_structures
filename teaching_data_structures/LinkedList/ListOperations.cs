@@ -3,11 +3,11 @@ namespace DataStructure.LinkedList;
 
 public static class ListOperations
 {
-    public static void AddToTail<T>(Node<T> head, T newvalue)
+    public static void AddToTail<T>(Node<T>? head, T newvalue)
     {
-        if (head == null) new ArgumentNullException("Head can't be null value.");
+        if (head == null) throw new ArgumentNullException("Head can't be null value.");
 
-        while (head.HasNext())
+        while (head!.HasNext())
         {
             head = head.GetNext();
         }
@@ -15,7 +15,7 @@ public static class ListOperations
         head.SetNext(new Node<T>(newvalue));
     }
 
-    public static string ToString<T>(Node<T> head)
+    public static string ToString<T>(Node<T>? head)
     {
         string result = "";
 
@@ -28,7 +28,7 @@ public static class ListOperations
         return result;
     }
 
-    public static int GetLength<T>(Node<T> head)
+    public static int GetLength<T>(Node<T>? head)
     {
         int len = 0;
 
@@ -41,11 +41,11 @@ public static class ListOperations
         return len;
     }
 
-    public static bool Contains<T>(Node<T> head, T value)
+    public static bool Contains<T>(Node<T>? head, T value)
     {
         while (head != null)
         {
-            if (head.GetValue().Equals(value))
+            if (head.GetValue()!.Equals(value))
             {
                 return true;
             }
@@ -56,7 +56,7 @@ public static class ListOperations
         return false;
     }
 
-    public static int GetMax(Node<int> head)
+    public static int GetMax(Node<int>? head)
     {
         int max = int.MinValue;
         while (head != null)
@@ -70,7 +70,7 @@ public static class ListOperations
         return max;
     }
 
-    public static void Insert<T>(Node<T> head, T value, int index)
+    public static void Insert<T>(Node<T>? head, T value, int index)
     {
         for (; index > 1; index--)
         {

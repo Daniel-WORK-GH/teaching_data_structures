@@ -35,7 +35,7 @@ public class Node<T> // <T> = generic
         return this.next;
     }
 
-    public void SetNext(Node<T> next)
+    public void SetNext(Node<T>? next)
     {
         this.next = next;
     }
